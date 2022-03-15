@@ -105,6 +105,11 @@ func main() {
 	//maps
 	var map1 = make(map[string]Vertex)
 
+	//check if exists
+	if _, ok := map1["bla"]; ok {
+
+	}
+
 	map1["bla"] = Vertex{
 		1,
 		2,
